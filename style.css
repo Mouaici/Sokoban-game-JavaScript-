@@ -1,0 +1,128 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #222;
+  color: #fff;
+  text-align: center;
+}
+
+h1 {
+  margin: 10px 0;
+}
+
+#game {
+  display: grid;
+  grid-template-columns: repeat(19, 32px); /* map width = 19 */
+  grid-template-rows: repeat(16, 32px);    /* map height = 16 */
+  gap: 0;
+  margin: 20px auto;
+  width: max-content;
+  border: 3px solid #fff;
+  background: #333;
+}
+
+/* === Tiles === */
+.tile-wall {
+  width: 32px;
+  height: 32px;
+  background: #555;
+  border: 1px solid #444;
+}
+
+.tile-space {
+  width: 32px;
+  height: 32px;
+  background: #222;
+}
+
+.tile-goal {
+  width: 32px;
+  height: 32px;
+  background: #444;
+  border: 2px dashed gold;
+}
+
+/* === Entities === */
+.entity-player {
+  width: 32px;
+  height: 32px;
+  background: dodgerblue;
+  border-radius: 50%;
+}
+
+.entity-block {
+  width: 32px;
+  height: 32px;
+  background: sienna;
+  border: 2px solid #000;
+}
+
+.entity-block-goal {
+  width: 32px;
+  height: 32px;
+  background: limegreen;
+  border: 2px solid #000;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: #222;
+  color: #fff;
+  text-align: center;
+}
+
+h1 {
+  margin: 10px 0;
+}
+
+#game {
+  display: grid;
+  grid-template-columns: repeat(19, 32px); /* map width = 19 */
+  grid-template-rows: repeat(16, 32px);    /* map height = 16 */
+  gap: 0;
+  margin: 20px auto;
+  width: max-content;
+  border: 3px solid #fff;
+  background: #333;
+}
+
+/* === Tiles === */
+.tile-wall {
+  width: 32px;
+  height: 32px;
+  background: #555;
+  border: 1px solid #444;
+}
+
+.tile-space {
+  width: 32px;
+  height: 32px;
+  background: #222;
+}
+
+.tile-goal {
+  width: 32px;
+  height: 32px;
+  background: #444;
+  border: 2px dashed gold;
+}
+
+/* === Entities === */
+.entity-player {
+  width: 32px;
+  height: 32px;
+  background: dodgerblue;
+  border-radius: 50%;
+}
+
+.entity-block {
+  width: 32px;
+  height: 32px;
+  background: sienna;
+  border: 2px solid #000;
+}
+
+.entity-block-goal {
+  width: 32px;
+  height: 32px;
+  background: limegreen;
+  border: 2px solid #000;
+}
